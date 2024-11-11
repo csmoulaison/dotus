@@ -1,0 +1,3 @@
+/home/csmoulaison/repos/dotus/build/CMakeFiles/dotus.dir
+/home/csmoulaison/repos/dotus/build/CMakeFiles/edit_cache.dir
+/home/csmoulaison/repos/dotus/build/CMakeFiles/rebuild_cache.dir

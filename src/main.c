@@ -25,14 +25,14 @@ int main(int argc, char** argv) {
 			"    <id>: Show the note with the matching id.\n"
 			"\n"
 			"    list | l: List all notes.\n"
-			"    search | s: <word>* : Search for matching keywords.\n"
+			"    find | f: <word>* : List notes with matching keywords.\n"
 			"    clear_all: Irreversibly delete all notes.\n"
 		);
 		return 0;
 	}
 
-	// > search 
-	if(strcmp(argv[1], "s") == 0 || strcmp(argv[1], "search") == 0) {
+	// > find 
+	if(strcmp(argv[1], "f") == 0 || strcmp(argv[1], "find") == 0) {
 		FILE* file;
 		file = fopen(NOTE_PATH, "r");
 		char line[NOTE_MAX_LENGTH];

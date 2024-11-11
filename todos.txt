@@ -1,0 +1,5 @@
+- Find: Make all argument matches mandatory.
+- Amend command: dotus amend 302 "This replaced the full string."
+- Replace command: dotus replace 302 "#todo" "#done"
+- Remove command: dotus remove 302 OR dotus remove last
+- Blacklist keywords: dotus find "#todo" -blacklist "#dotus"

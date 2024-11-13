@@ -69,28 +69,28 @@ include CMakeFiles/dotus.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/dotus.dir/flags.make
 
-CMakeFiles/dotus.dir/home/csmoulaison/repos/dotus/src/main.c.o: CMakeFiles/dotus.dir/flags.make
-CMakeFiles/dotus.dir/home/csmoulaison/repos/dotus/src/main.c.o: /home/csmoulaison/repos/dotus/src/main.c
-CMakeFiles/dotus.dir/home/csmoulaison/repos/dotus/src/main.c.o: CMakeFiles/dotus.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/csmoulaison/repos/dotus/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/dotus.dir/home/csmoulaison/repos/dotus/src/main.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/dotus.dir/home/csmoulaison/repos/dotus/src/main.c.o -MF CMakeFiles/dotus.dir/home/csmoulaison/repos/dotus/src/main.c.o.d -o CMakeFiles/dotus.dir/home/csmoulaison/repos/dotus/src/main.c.o -c /home/csmoulaison/repos/dotus/src/main.c
+CMakeFiles/dotus.dir/home/csmoulaison/repos/dotus/src/dotus.c.o: CMakeFiles/dotus.dir/flags.make
+CMakeFiles/dotus.dir/home/csmoulaison/repos/dotus/src/dotus.c.o: /home/csmoulaison/repos/dotus/src/dotus.c
+CMakeFiles/dotus.dir/home/csmoulaison/repos/dotus/src/dotus.c.o: CMakeFiles/dotus.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/csmoulaison/repos/dotus/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/dotus.dir/home/csmoulaison/repos/dotus/src/dotus.c.o"
+	/sbin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/dotus.dir/home/csmoulaison/repos/dotus/src/dotus.c.o -MF CMakeFiles/dotus.dir/home/csmoulaison/repos/dotus/src/dotus.c.o.d -o CMakeFiles/dotus.dir/home/csmoulaison/repos/dotus/src/dotus.c.o -c /home/csmoulaison/repos/dotus/src/dotus.c
 
-CMakeFiles/dotus.dir/home/csmoulaison/repos/dotus/src/main.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/dotus.dir/home/csmoulaison/repos/dotus/src/main.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/csmoulaison/repos/dotus/src/main.c > CMakeFiles/dotus.dir/home/csmoulaison/repos/dotus/src/main.c.i
+CMakeFiles/dotus.dir/home/csmoulaison/repos/dotus/src/dotus.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/dotus.dir/home/csmoulaison/repos/dotus/src/dotus.c.i"
+	/sbin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/csmoulaison/repos/dotus/src/dotus.c > CMakeFiles/dotus.dir/home/csmoulaison/repos/dotus/src/dotus.c.i
 
-CMakeFiles/dotus.dir/home/csmoulaison/repos/dotus/src/main.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/dotus.dir/home/csmoulaison/repos/dotus/src/main.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/csmoulaison/repos/dotus/src/main.c -o CMakeFiles/dotus.dir/home/csmoulaison/repos/dotus/src/main.c.s
+CMakeFiles/dotus.dir/home/csmoulaison/repos/dotus/src/dotus.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/dotus.dir/home/csmoulaison/repos/dotus/src/dotus.c.s"
+	/sbin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/csmoulaison/repos/dotus/src/dotus.c -o CMakeFiles/dotus.dir/home/csmoulaison/repos/dotus/src/dotus.c.s
 
 # Object files for target dotus
 dotus_OBJECTS = \
-"CMakeFiles/dotus.dir/home/csmoulaison/repos/dotus/src/main.c.o"
+"CMakeFiles/dotus.dir/home/csmoulaison/repos/dotus/src/dotus.c.o"
 
 # External object files for target dotus
 dotus_EXTERNAL_OBJECTS =
 
-/home/csmoulaison/repos/dotus/bin/dotus: CMakeFiles/dotus.dir/home/csmoulaison/repos/dotus/src/main.c.o
+/home/csmoulaison/repos/dotus/bin/dotus: CMakeFiles/dotus.dir/home/csmoulaison/repos/dotus/src/dotus.c.o
 /home/csmoulaison/repos/dotus/bin/dotus: CMakeFiles/dotus.dir/build.make
 /home/csmoulaison/repos/dotus/bin/dotus: CMakeFiles/dotus.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/csmoulaison/repos/dotus/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C executable /home/csmoulaison/repos/dotus/bin/dotus"

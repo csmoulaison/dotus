@@ -1,5 +1,5 @@
-CMakeFiles/dotus.dir/home/csmoulaison/repos/dotus/src/main.c.o: \
- /home/csmoulaison/repos/dotus/src/main.c /usr/include/stdc-predef.h \
+CMakeFiles/dotus.dir/home/csmoulaison/repos/dotus/src/dotus.c.o: \
+ /home/csmoulaison/repos/dotus/src/dotus.c /usr/include/stdc-predef.h \
  /usr/include/stdio.h /usr/include/bits/libc-header-start.h \
  /usr/include/features.h /usr/include/features-time64.h \
  /usr/include/bits/wordsize.h /usr/include/bits/timesize.h \

@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/csmoulaison/repos/dotus/src/main.c" "CMakeFiles/dotus.dir/home/csmoulaison/repos/dotus/src/main.c.o" "gcc" "CMakeFiles/dotus.dir/home/csmoulaison/repos/dotus/src/main.c.o.d"
+  "/home/csmoulaison/repos/dotus/src/dotus.c" "CMakeFiles/dotus.dir/home/csmoulaison/repos/dotus/src/dotus.c.o" "gcc" "CMakeFiles/dotus.dir/home/csmoulaison/repos/dotus/src/dotus.c.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

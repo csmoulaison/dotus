@@ -1,1 +1,1 @@
-/usr/bin/cc CMakeFiles/dotus.dir/home/csmoulaison/repos/dotus/src/main.c.o -o /home/csmoulaison/repos/dotus/bin/dotus
+/sbin/cc CMakeFiles/dotus.dir/home/csmoulaison/repos/dotus/src/dotus.c.o -o /home/csmoulaison/repos/dotus/bin/dotus

@@ -129,29 +129,29 @@ dotus/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/dotus.dir/build.make CMakeFiles/dotus.dir/build
 .PHONY : dotus/fast
 
-home/csmoulaison/repos/dotus/src/main.o: home/csmoulaison/repos/dotus/src/main.c.o
-.PHONY : home/csmoulaison/repos/dotus/src/main.o
+home/csmoulaison/repos/dotus/src/dotus.o: home/csmoulaison/repos/dotus/src/dotus.c.o
+.PHONY : home/csmoulaison/repos/dotus/src/dotus.o
 
 # target to build an object file
-home/csmoulaison/repos/dotus/src/main.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/dotus.dir/build.make CMakeFiles/dotus.dir/home/csmoulaison/repos/dotus/src/main.c.o
-.PHONY : home/csmoulaison/repos/dotus/src/main.c.o
+home/csmoulaison/repos/dotus/src/dotus.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dotus.dir/build.make CMakeFiles/dotus.dir/home/csmoulaison/repos/dotus/src/dotus.c.o
+.PHONY : home/csmoulaison/repos/dotus/src/dotus.c.o
 
-home/csmoulaison/repos/dotus/src/main.i: home/csmoulaison/repos/dotus/src/main.c.i
-.PHONY : home/csmoulaison/repos/dotus/src/main.i
+home/csmoulaison/repos/dotus/src/dotus.i: home/csmoulaison/repos/dotus/src/dotus.c.i
+.PHONY : home/csmoulaison/repos/dotus/src/dotus.i
 
 # target to preprocess a source file
-home/csmoulaison/repos/dotus/src/main.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/dotus.dir/build.make CMakeFiles/dotus.dir/home/csmoulaison/repos/dotus/src/main.c.i
-.PHONY : home/csmoulaison/repos/dotus/src/main.c.i
+home/csmoulaison/repos/dotus/src/dotus.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dotus.dir/build.make CMakeFiles/dotus.dir/home/csmoulaison/repos/dotus/src/dotus.c.i
+.PHONY : home/csmoulaison/repos/dotus/src/dotus.c.i
 
-home/csmoulaison/repos/dotus/src/main.s: home/csmoulaison/repos/dotus/src/main.c.s
-.PHONY : home/csmoulaison/repos/dotus/src/main.s
+home/csmoulaison/repos/dotus/src/dotus.s: home/csmoulaison/repos/dotus/src/dotus.c.s
+.PHONY : home/csmoulaison/repos/dotus/src/dotus.s
 
 # target to generate assembly for a file
-home/csmoulaison/repos/dotus/src/main.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/dotus.dir/build.make CMakeFiles/dotus.dir/home/csmoulaison/repos/dotus/src/main.c.s
-.PHONY : home/csmoulaison/repos/dotus/src/main.c.s
+home/csmoulaison/repos/dotus/src/dotus.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dotus.dir/build.make CMakeFiles/dotus.dir/home/csmoulaison/repos/dotus/src/dotus.c.s
+.PHONY : home/csmoulaison/repos/dotus/src/dotus.c.s
 
 # Help Target
 help:
@@ -162,9 +162,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... dotus"
-	@echo "... home/csmoulaison/repos/dotus/src/main.o"
-	@echo "... home/csmoulaison/repos/dotus/src/main.i"
-	@echo "... home/csmoulaison/repos/dotus/src/main.s"
+	@echo "... home/csmoulaison/repos/dotus/src/dotus.o"
+	@echo "... home/csmoulaison/repos/dotus/src/dotus.i"
+	@echo "... home/csmoulaison/repos/dotus/src/dotus.s"
 .PHONY : help
 
 

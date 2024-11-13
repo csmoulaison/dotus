@@ -78,11 +78,7 @@ int main(int argc, char** argv) {
 				}
 			}
 			if(line_matches > 0) {
-				printf("(%i match", line_matches);
-				if(line_matches != 1) {
-					printf("es");
-				}
-				printf(") %06i %s", line_index, line);
+				printf("\033[0;31m%06i\033[0m %s", line_index, line);
 				total_matches++;
 			}
 			line_index++;
@@ -108,7 +104,7 @@ int main(int argc, char** argv) {
 		char line[NOTE_MAX_LENGTH];
 		int line_count = 0;
 		while(fgets(line, sizeof(line), file) != NULL) {
-			printf("%06i %s", line_count, line);
+			printf("\033[0;31m%06i\033[0m %s", line_count, line);
 			line_count++;
 		}
 		fclose(file);
@@ -194,7 +190,7 @@ int main(int argc, char** argv) {
 		int line_count = 0;
 		while(fgets(line, sizeof(line), file)) {
 			if(line_count == argv_id) {
-				printf("%06i %s", argv_id, line);
+				printf("\033[0;31m%06i\033[0m %s", argv_id, line);
 				break;
 			}
 			line_count++;
